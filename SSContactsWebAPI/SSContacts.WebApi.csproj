@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Ardalis.ApiEndpoints" Version="4.0.1" />
+    <PackageReference Include="Ardalis.GuardClauses" Version="4.0.1" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.3.1" />
+    <PackageReference Include="Swashbuckle.AspNetCore.Annotations" Version="6.3.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SSContacts.Core\SSContacts.Core.csproj" />
+    <ProjectReference Include="..\SSContacts.Infrastructure\SSContacts.Infrastructure.csproj" />
+    <ProjectReference Include="..\SSContacts.SharedKernel\SSContacts.SharedKernel.csproj" />
+  </ItemGroup>
+
+</Project>
